@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    max-width: 60%;
+}
+
+.container b {
+    font-size: x-small;
+}

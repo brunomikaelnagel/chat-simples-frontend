@@ -1,0 +1,13 @@
+.container {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid lightgray;
+    cursor: pointer;
+}
+
+.container svg {
+    height: 20px;
+    width: 20px;
+}

@@ -1,0 +1,61 @@
+.container {
+    height: 500px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    gap: 10px;
+    padding: 0px 10px;
+    margin: 10px 0px;
+}
+
+.list::-webkit-scrollbar {
+    width: 6px; 
+}
+
+.list::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+.list::-webkit-scrollbar-thumb {
+    background: #ccc;
+}
+
+.form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    padding-top: 10px;
+    border-top: 1px solid lightgray;
+    gap: 5px;
+}
+
+.my_message{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.message_from_another{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.leftJoinMessage{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}

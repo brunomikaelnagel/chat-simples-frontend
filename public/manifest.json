@@ -1,0 +1,9 @@
+{
+  "short_name": "Chat simples",
+  "name": "Chat simples para exemplificar o uso do protocolo websocket",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
